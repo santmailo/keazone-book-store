@@ -10,8 +10,8 @@ const Header = ({implementSearch, implementSearchTerm}) => {
             </div>
 
             <div className='searchBar'>
-                <input type="text" onChange={implementSearchTerm} placeholder='Search for the book you want and read it now... Sherlock Holmes, Harry Pot...'/>
-                <button onClick={implementSearch}>Search</button>
+                    <input type="text" onChange={implementSearchTerm} placeholder='Search for the book you want and read it now... Sherlock Holmes, Harry Pot...'/>
+                    <button onClick={implementSearch}>Search</button>
             </div>
 
 
