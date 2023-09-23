@@ -13,6 +13,8 @@ function BookList({ books }) {
             src={book.book.volumeInfo.imageLinks.thumbnail}
             alt=""
             className="book-image"
+
+            title={book.book.volumeInfo.title}
           />
         </div>
         <div className={`book-info-div book_item_${book.index}`}>
@@ -89,7 +91,7 @@ function BookList({ books }) {
     
     return (
       <div className="only-book-image-div" onClick={()=>setShowInfo({book})} key={index}>
-            <img src={imgg} alt="image" className="only-book-image" />
+            <img src={imgg} alt="image" className="only-book-image" title={book.book.volumeInfo.title}/>
       </div>
     );
   }
