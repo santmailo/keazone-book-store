@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/keazone-book-store/static/css/main.b146d845.css",
+    "main.js": "/keazone-book-store/static/js/main.caebf95a.js",
+    "static/media/keyzone.svg": "/keazone-book-store/static/media/keyzone.4eda4102174ce98098fa76bc2191168d.svg",
+    "index.html": "/keazone-book-store/index.html",
+    "main.b146d845.css.map": "/keazone-book-store/static/css/main.b146d845.css.map",
+    "main.caebf95a.js.map": "/keazone-book-store/static/js/main.caebf95a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b146d845.css",
+    "static/js/main.caebf95a.js"
+  ]
+}
