@@ -92,7 +92,8 @@ img{
 button:hover{
   cursor: pointer;
   background-color: grey;
-  transform: scale(1.2);
+  linear-gradient(to bottom, #5cc456, #3a8f35);
+  margin-bottom: 10px;
 }
 
 
